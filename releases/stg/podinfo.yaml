@@ -15,7 +15,7 @@ spec:
     ref: master
   values:
     image: stefanprodan/podinfo:stg-9ij63o4c
-    replicaCount: 2
+    replicaCount: 1
     hpa:
       enabled: true
       maxReplicas: 10
